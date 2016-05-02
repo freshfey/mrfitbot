@@ -18,7 +18,7 @@ a {
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
-
+/*
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
@@ -37,10 +37,33 @@ a {
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.3); }
+*/
+.btn {
+    border-radius: 0.5em;
+    background-color: #40afe7;
+    color: #fff;
+    font-weight: 600;
+    width: auto;
+    display: inline-block;
+    padding: 0.35em;
+    padding-right: 0.6em;
+    cursor: pointer;
+    border-bottom: 3px solid #1891CF;
+    background: #40afe7 url('../icon.png') left center no-repeat;
+    background-size: 40px;
+    padding-left: 10px;
+}
+
+
 
 @media screen and (min-width: 64em) {
   .btn {
-    padding: 0.75rem 1rem; } }
+    padding: 0.75rem 1rem; 
+    padding-top: 0.75rem;
+    padding-right: 1rem;
+    padding-left: 50px;
+    padding-bottom: 0.75rem;
+    } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .btn {
